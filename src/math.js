@@ -78,7 +78,7 @@ function max(numbers) {
     return null
   }
   for (let i = 0; i < numbers.length; i++) {
-    if (typeof numbers[i] !== "number") {  // ✅ Check the element, not the index
+    if (typeof numbers[i] !== "number") {  
       return null
     }
   }
@@ -99,7 +99,7 @@ function min(numbers) {
     return null
   }
   for (let i = 0; i < numbers.length; i++) {
-    if (typeof numbers[i] !== "number") {  // ✅ Check the element, not the index
+    if (typeof numbers[i] !== "number") {  
       return null
     }
   }
