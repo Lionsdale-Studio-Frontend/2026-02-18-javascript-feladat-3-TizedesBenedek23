@@ -1,5 +1,5 @@
 function add(a, b) {
-  if(typeof(a) === "number" && typeof(b) === "number" && a !== null && b !== null){
+  if(typeof(a) === "number" && typeof(b) === "number"){
     return a+b
   }
   else{
@@ -8,7 +8,7 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  if(typeof(a) === "number" && typeof(b) === "number" && a !== null && b !== null){
+  if(typeof(a) === "number" && typeof(b) === "number"){
     return a-b
   }
   else{
@@ -17,7 +17,7 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  if(typeof(a) === "number" && typeof(b) === "number" && a !== null && b !== null){
+  if(typeof(a) === "number" && typeof(b) === "number"){
     return a*b
   }
   else{
@@ -26,7 +26,7 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-  if (typeof a === "number" && typeof b === "number" && a !== null && b !== null && b !== 0) {
+  if (typeof a === "number" && typeof b === "number" && b !== 0) {
     return a / b;
   }
   return null;
